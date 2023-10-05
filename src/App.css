@@ -1,0 +1,80 @@
+.App {
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #ffb6c1;
+  min-height: 100vh;
+  color:dimgray;
+}
+
+.CalcContainer {
+  width: 500px;
+  margin:auto;
+  text-align: center;
+  padding: 50px;
+}
+
+.CalcDisplay {
+  border: 1px solid #F17173;
+  height: 40px;
+  font-size: 2em;
+  text-align: right;
+  padding:10px;
+  background: #F17173;
+  color:#F3D1DD;
+  border-radius: 4px;
+  margin-bottom: 2px;
+}
+
+.ButtonContainer {
+  display: grid;
+  gap: 1px;
+  grid-template-columns: repeat(4, 1fr);
+
+}
+
+.CalcButtonNum {
+    font-size: 2em;
+    justify-content: center;
+    color: #636059;
+    background-color: #FDBF9C;
+    border: 1px solid #FDBF9C;
+    border-radius: 4px;
+    padding: 5px;
+
+}
+
+.CalcButton {
+  font-size: 2em;
+  justify-content: center;
+  color: #636059;
+  background-color: #F17173;
+  border: 1px solid #F17173;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.CalcButtonName {
+  font-size: 2em;
+  justify-content: center;
+  color: #24444C;
+  background-color: #8C8C8C;
+  border: 1px solid #6C8C8C;
+  border-radius: 4px;
+}
+
+
+.Name {
+  margin-top: 10px;
+
+}
+
+.Notes {
+  padding: 10px;
+  margin: 100px 200px;
+  font-size: 1.5em;
+  text-align: left;
+  color: #212223;
+  font-weight: 500;
+}
+
+
